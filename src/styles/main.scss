@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+:root {
+  font-family: "Space Mono", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #fff;
+  background-color: #151515;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* .allez-smooth, */
+/* .allez-reg { */
+/*   padding: 1.6rem; */
+/*   overflow: hidden; */
+/*   overscroll-behavior: none; */
+/* } */
+
+#app {
+  margin: 0;
+  box-sizing: content-box;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+section {
+  position: relative;
+  padding: 1.6rem;
+  height: 100vh;
+  will-change: transform;
+
+  &:nth-child(1) {
+    background-color: red;
+    color: #151515;
+  }
+
+  &:nth-child(2) {
+    background-color: orange;
+    color: #151515;
+  }
+
+  &:nth-child(3) {
+    background-color: yellow;
+    color: #151515;
+  }
+  &:nth-child(4) {
+    background-color: green;
+    color: #151515;
+  }
+  &:nth-child(5) {
+    background-color: blue;
+    color: white;
+  }
+  &:nth-child(6) {
+    background-color: indigo;
+    color: white;
+  }
+}
